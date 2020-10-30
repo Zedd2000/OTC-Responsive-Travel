@@ -66,7 +66,9 @@ nav a:active {
 
 .left-flex, .main-flex, .right-flex {
   border: 2px lime solid;
-  height: 1500px;
+  /* height: 1500px; */
+  /* Suggestion -- use margin: auto; to have a field that'LL expand with the content */
+  margin: auto;
 }
 
 .main-flex {
@@ -93,9 +95,15 @@ nav a:active {
   margin: 0px 5px 5px 5px;
 }
 
-h2 {
+h1, h2 {
   margin: 0px 0px 5px 0px;
   text-align: center;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  right: 575px;
 }
 
 /*nav {
@@ -103,6 +111,8 @@ h2 {
 }*/
 
 footer {
+  background-color: black;
+  color: white;
   margin: 10px 10px 0px 10px;
   opacity: 95%;
   text-align: center;
