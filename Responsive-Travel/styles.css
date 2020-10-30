@@ -36,6 +36,7 @@ a {
 
 nav{
   background-color: black;
+  /*margin: auto;*/
   color: white;
   text-align: left;
   padding-top: 10px;
@@ -75,9 +76,12 @@ nav a:active {
   width: 50%;
 }
 
+/* Martin's Contributions */
+
 .sea, .bel, .bal, .pet, .com {
   height: auto;
   margin: 10px 5px 0px 0px;
+  text-align: center;
 }
 
 .com {
@@ -89,13 +93,16 @@ nav a:active {
   margin: 0px 5px 5px 5px;
 }
 
-h1 {
+h2 {
   margin: 0px 0px 5px 0px;
   text-align: center;
 }
 
+/*nav {
+  background-color: red;
+}*/
+
 footer {
-  /*background-color: white;*/
   margin: 10px 10px 0px 10px;
   opacity: 95%;
   text-align: center;
