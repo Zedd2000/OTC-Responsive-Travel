@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 html {
@@ -69,6 +70,33 @@ nav a:active {
 
 .main-flex {
   background-color: white;
+  color: black
   opacity: 95%;
   width: 50%;
+}
+
+.sea, .bel, .bal, .pet, .com {
+  height: auto;
+  margin: 10px 5px 0px 0px;
+}
+
+.com {
+  flex-grow: 2;
+}
+
+.flex-head {
+  border-bottom: 1px solid black;
+  margin: 0px 5px 5px 5px;
+}
+
+h1 {
+  margin: 0px 0px 5px 0px;
+  text-align: center;
+}
+
+footer {
+  /*background-color: white;*/
+  margin: 10px 10px 0px 10px;
+  opacity: 95%;
+  text-align: center;
 }
