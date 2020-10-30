@@ -60,7 +60,7 @@ nav a:active {
 .content-container {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  /*align-items: stretch;*/
 
 }
 
@@ -74,6 +74,8 @@ nav a:active {
 .main-flex {
   background-color: white;
   color: black;
+  flex-basis: 200px;
+  /*flex-flow: row wrap;*/
   opacity: 95%;
   width: 50%;
 }
@@ -81,18 +83,24 @@ nav a:active {
 /* Martin's Contributions */
 
 .sea, .bel, .bal, .pet, .com {
+  flex-flow: row wrap;
   height: auto;
   margin: 10px 5px 0px 0px;
   text-align: center;
 }
 
-.com {
+/*.com {
   flex-grow: 2;
-}
+}*/
 
 .flex-head {
   border-bottom: 1px solid black;
   margin: 0px 5px 5px 5px;
+}
+
+#seaW, #belP, #balP, #petS, #comC {
+  height: 200px;
+  width: 200px;
 }
 
 h1, h2 {
@@ -117,3 +125,13 @@ footer {
   opacity: 95%;
   text-align: center;
 }
+
+@media only screen and (max-width="device-width") {
+
+}
+
+@media only screen and (min-width="1200px") {
+
+}
+
+@media only screen and (min-width="360")
